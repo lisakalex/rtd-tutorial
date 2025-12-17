@@ -11,3 +11,10 @@ python:
 
 sphinx:
   configuration: docs/source/conf.py
+
+jobs:
+  pre_install:
+    - pip install mkdocs-material
+
+mkdocs:
+configuration: mkdocs.yml
